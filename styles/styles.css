@@ -3,13 +3,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+aside {
+    position: fixed;
+    background-color: pink;
+    top: 40%;
+    right: 0px;
+    padding: 5px 5px 5px 15px;
+}
+li {
+    list-style-type: "♥";
+}
 .container {
-    display: flex;
-    width: 80%;
+    background-color: rgb(160, 155, 155);
+    width: 900px;
+    margin: 0 auto;
+    justify-content: left;
 }
 .container-header {
     background-color: blueviolet;
-    margin: 0 10%;
+    display: flex;
 }
 .full-stack.gif {
     display: flex;
@@ -17,19 +29,12 @@
     width: 10px;
 }
 .section {
-    display: flex;
-    justify-content: center;
+    background-color: aqua;
 }
 .item-container {
-    width: 900px;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
 }
 .item {
-    border: 1px solid #fff;
     background-color: #B679FE;
     height: 200px;
     flex: 1;
@@ -46,6 +51,16 @@
 }
 .four {
     background-color: orange;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: purple;
+}
+.footer-header {
+    background-color: #df79fe;
+    height: 200px;
+    width: 100%;
 }
 
 @media only screen and (max-width: 480px) {
