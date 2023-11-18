@@ -3,6 +3,31 @@
     margin: 0;
     box-sizing: border-box;
 }
+.container {
+    display: flex;
+    width: 80%;
+}
+.header {
+    background-color: blueviolet;
+    margin: 0 10%;
+}
+.full-stack.gif {
+    display: flex;
+    justify-content: end;
+    width: 10px;
+}
+.riquadri {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+}
+.quadro-singolo {
+    border: 1px solid #fff;
+  background-color: #B679FE;
+  height: 200px;
+  flex: 1;
+  overflow:hidden;  
+}
 
 @media only screen and (max-width: 480px) {
 
