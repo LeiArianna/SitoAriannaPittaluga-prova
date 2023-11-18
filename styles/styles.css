@@ -20,12 +20,20 @@
     display: flex;
     justify-content: center;
 }
+.item-container {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
 .item {
     border: 1px solid #fff;
-  background-color: #B679FE;
-  height: 200px;
-  flex: 1;
-  overflow:hidden;  
+    background-color: #B679FE;
+    height: 200px;
+    flex: 1;
+    overflow:hidden;  
 }
 .one {
     background-color: red;
