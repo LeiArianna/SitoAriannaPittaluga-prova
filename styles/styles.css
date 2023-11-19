@@ -17,16 +17,25 @@ li {
     background-color: rgb(160, 155, 155);
     width: 900px;
     margin: 0 auto;
-    justify-content: left;
 }
 .container-header {
     background-color: blueviolet;
     display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px;
 }
-.full-stack.gif {
-    display: flex;
+.mia-foto img {
+    width: 100px;
+    margin: 10% 10%;
+}
+.header-text {
+    margin: 10px 50px;
     justify-content: end;
+}
+.full-stack.gif img {
     width: 10px;
+    margin: 10% 10%;
+    justify-content: right;
 }
 .section {
     background-color: aqua;
@@ -38,7 +47,7 @@ li {
     background-color: #B679FE;
     height: 200px;
     flex: 1;
-    overflow:hidden;  
+    overflow: hidden;  
 }
 .one {
     background-color: red;
