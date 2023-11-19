@@ -3,17 +3,37 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: black;
+}
 aside {
     position: fixed;
     background-color: rgba(247, 185, 195, 0.7);
     top: 40%;
     right: 0px;
-    padding: 5px 5px 5px 25px;
-    border-radius: 20px;;
+    padding: 5px 5px 5px 30px;
+    border-radius: 20px;
 }
-li {
+.menu li {
     list-style-type: circle;
     padding: 10px;
+}
+.menu a {
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Calibri', 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.menu a:hover {
+    background-color: rgb(247, 185, 195);
+    border: 1px solid #F04;
+    color:#F04;
+}
+.menu a:link {
+    color:#D04;
+}
+.menu a:visited {
+    color:#D04;
 }
 .container {
     background-color: rgb(160, 155, 155);
