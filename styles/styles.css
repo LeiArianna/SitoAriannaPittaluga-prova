@@ -28,10 +28,11 @@ li {
 }
 .mia-foto img {
     width: 100px;
-    margin: 10% 10%;
+    margin: 10px 20px 0px 150px;
+    transform: rotate(4deg);
 }
 .header-text {
-    margin: 10px 50px;
+    margin: 10px 10px;
 }
 .section {
     background-color: aqua;
