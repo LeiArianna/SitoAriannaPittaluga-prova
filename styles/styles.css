@@ -5,13 +5,15 @@
 }
 aside {
     position: fixed;
-    background-color: pink;
+    background-color: rgba(247, 185, 195, 0.7);
     top: 40%;
     right: 0px;
-    padding: 5px 5px 5px 15px;
+    padding: 5px 5px 5px 25px;
+    border-radius: 20px;;
 }
 li {
-    list-style-type: "♥";
+    list-style-type: circle;
+    padding: 10px;
 }
 .container {
     background-color: rgb(160, 155, 155);
@@ -30,24 +32,21 @@ li {
 }
 .header-text {
     margin: 10px 50px;
-    justify-content: end;
-}
-.full-stack.gif img {
-    width: 10px;
-    margin: 10% 10%;
-    justify-content: right;
 }
 .section {
     background-color: aqua;
 }
 .item-container {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
 }
 .item {
     background-color: #B679FE;
-    height: 200px;
+    height: 600px;
     flex: 1;
-    overflow: hidden;  
 }
 .one {
     background-color: red;
@@ -61,15 +60,24 @@ li {
 .four {
     background-color: orange;
 }
+.social {
+    background-color: rgb(255, 123, 0);
+    padding: 10px;
+    margin: 10px;
+    height: 200px;
+}
+.social div {
+    padding: 10px;
+}
 .footer {
     display: flex;
     justify-content: center;
     background-color: purple;
+    height: 200px;
 }
 .footer-header {
-    background-color: #df79fe;
-    height: 200px;
-    width: 100%;
+    bottom: -10px;
+    position: relative;
 }
 
 @media only screen and (max-width: 480px) {
