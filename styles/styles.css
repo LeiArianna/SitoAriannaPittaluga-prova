@@ -6,6 +6,7 @@
 body {
     background-color: black;
 }
+/* aside div menu laterale fixed */
 aside {
     position: fixed;
     background-color: rgba(247, 185, 195, 0.7);
@@ -35,16 +36,18 @@ aside {
 .menu a:visited {
     color:#D04;
 }
+/* div container header, section item-container and footer  */
 .container {
     background-color: rgb(160, 155, 155);
     width: 900px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 .container-header {
     background-color: blueviolet;
-    display: flex;
-    flex-wrap: wrap;
     padding: 10px 10px;
+    flex-basis: 100%;
 }
 .mia-foto img {
     width: 100px;
@@ -57,12 +60,11 @@ aside {
 .section {
     background-color: aqua;
 }
+.section-one {
+    flex-basis: 50%;
+}
 .item-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
+    background-color: wheat;
 }
 .item {
     background-color: #B679FE;
@@ -81,24 +83,26 @@ aside {
 .four {
     background-color: orange;
 }
-.social {
+.socials {
     background-color: rgb(255, 123, 0);
     padding: 10px;
-    margin: 10px;
     height: 200px;
+    flex-basis: 100%;
 }
 .social div {
     padding: 10px;
 }
 .footer {
-    display: flex;
-    justify-content: center;
     background-color: purple;
     height: 200px;
+    flex-basis: 100%;
 }
 .footer-header {
+    background-color: wheat;
     bottom: -10px;
     position: relative;
+    text-align: center;
+    align-items: bottom;
 }
 
 @media only screen and (max-width: 480px) {
