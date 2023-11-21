@@ -80,7 +80,7 @@ aside {
     padding: 2%;
 }
 .titoletti {
-    padding: 10px 0 1px 0;
+    padding: 20px 0 1px 0;
     display: flex;
 }
 .titoletti div {
@@ -98,6 +98,10 @@ aside {
 }
 .codici {
     color: rgb(168, 168, 168);
+}
+.work-in-progress {
+    padding: 50px;
+    text-align: center;
 }
 .one-chiave {
     color:lightcoral;
