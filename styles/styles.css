@@ -5,6 +5,7 @@
 }
 body {
     background-color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 /* aside div menu laterale fixed */
 aside {
@@ -22,7 +23,6 @@ aside {
 .menu a {
     font-size: 20px;
     text-decoration: none;
-    font-family: 'Calibri', 'Courier New', Courier, monospace;
     font-weight: bold;
 }
 .menu a:hover {
@@ -41,13 +41,12 @@ aside {
     background-color: rgb(160, 155, 155);
     width: 900px;
     margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
 }
+/* header */
 .container-header {
     background-color: blueviolet;
     padding: 10px 10px;
-    flex-basis: 100%;
+    display: flex;
 }
 .mia-foto img {
     width: 100px;
@@ -57,45 +56,87 @@ aside {
 .header-text {
     margin: 10px 10px;
 }
+/* content body */
 .section {
     background-color: aqua;
 }
-.section-one {
-    flex-basis: 50%;
-}
 .item-container {
     background-color: wheat;
+    display: flex;
+    flex-wrap: wrap;
 }
 .item {
     background-color: #B679FE;
-    height: 600px;
-    flex: 1;
+    height: 400px;
+    flex-basis: 50%;
+    color: white;
+    padding: 10px;
 }
 .one {
-    background-color: red;
+    background-image: url(../images/front-back-end-sfondo.png);
+    background-position: -40px;
+}
+.testo-one {
+    padding: 2%;
+}
+.titoletti {
+    padding: 10px 0 1px 0;
+    display: flex;
+}
+.titoletti div {
+    flex-basis: 50%;
+    text-align: center;
+}
+.testini {
+    display: flex;
+}
+.testini div {
+    padding: 5px 18px 1px 18px;
+    flex-basis: 50%;
+    text-align: center;
+    min-width: 100px;
+}
+.codici {
+    color: rgb(168, 168, 168);
+}
+.one-chiave {
+    color:lightcoral;
+    padding: 1px;
+}
+.sotto-titolo {
+    color: lightgreen;
+    padding: 1px;
+}
+.sotto-sotto-titolo {
+    color: lightblue;
+    padding: 1px;
 }
 .two {
-    background-color: green;
+    background-image: url(../images/sw-che-uso.png);
 }
 .three {
-    background-color: blue;
+    background-image: url(../images/linguaggi-che-uso.jpg);
 }
 .four {
-    background-color: orange;
+    background-image: url(../images/portfolio-sfondo.png);
+    background-position: -85px;
 }
+.four h3 {
+    text-align: center;
+}
+/* socials */
 .socials {
     background-color: rgb(255, 123, 0);
     padding: 10px;
     height: 200px;
-    flex-basis: 100%;
 }
 .social div {
     padding: 10px;
 }
+/* footer */
 .footer {
     background-color: purple;
     height: 200px;
-    flex-basis: 100%;
 }
 .footer-header {
     background-color: wheat;
@@ -106,7 +147,9 @@ aside {
 }
 
 @media only screen and (max-width: 480px) {
-
+    .item {
+    flex-basis: 100%;
+    }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 960px) {
