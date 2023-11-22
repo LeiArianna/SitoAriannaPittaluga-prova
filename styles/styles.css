@@ -38,7 +38,7 @@ aside {
     color:#D04;
 }
 .sfondo-menu {
-    background-image: linear-gradient(to bottom right, #ff004c, rgb(255, 166, 0));
+    background-image: linear-gradient(to bottom right, rgb(88, 41, 47), rgb(191, 177, 255));
     opacity: 0.2;
     position: fixed;
     top: 40%;
@@ -89,6 +89,9 @@ aside {
     background-image: url(../images/front-back-end-sfondo.png);
     background-position: -40px;
 }
+.one h1 {
+    writing-mode: vertical-rl;
+}
 .testo-one {
     padding: 2%;
 }
@@ -137,9 +140,38 @@ aside {
 .four {
     background-image: url(../images/portfolio-sfondo.png);
     background-position: -85px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.four h1 {
+    height: 50px;
 }
 .four h3 {
+    height: 30px;
+    justify-content: center;
+    margin: 10px auto;
+    flex-basis: 100%;
     text-align: center;
+}
+.four div {
+    background-color: lightgrey;
+    border-radius: 10%;
+    margin: 10px auto;
+}
+.lavoro-1 {
+    border: 5px solid red;
+    width: 130px;
+    height: 100px;
+}
+.lavoro-2 {
+    border: 5px solid rgb(4, 0, 255);
+    width: 130px;
+    height: 100px;
+}
+.lavoro-3 {
+    border: 5px solid rgb(229, 255, 0);
+    width: 130px;
+    height: 100px;
 }
 /* socials */
 .socials {
