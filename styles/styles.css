@@ -10,7 +10,8 @@ body {
 /* aside div menu laterale fixed */
 aside {
     position: fixed;
-    background-color: rgba(247, 185, 195, 0.7);
+    /*background-color: rgba(247, 185, 195, 0.7); */
+    
     top: 40%;
     right: 0px;
     padding: 5px 5px 5px 30px;
@@ -35,6 +36,18 @@ aside {
 }
 .menu a:visited {
     color:#D04;
+}
+.sfondo-menu {
+    background-image: linear-gradient(to bottom right, #ff004c, rgb(255, 166, 0));
+    opacity: 0.2;
+    position: fixed;
+    top: 40%;
+    right: 0px;
+    padding: 5px 5px 5px 30px;
+    border-radius: 20px;
+    height: 150px;
+    width: 195px;
+    
 }
 /* div container header, section item-container and footer  */
 .container {
