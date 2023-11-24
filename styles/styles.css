@@ -83,17 +83,27 @@ aside {
     height: 400px;
     flex-basis: 50%;
     color: white;
-    padding: 10px;
+    padding: 10px;    
 }
 .one {
     background-image: url(../images/front-back-end-sfondo.png);
     background-position: -40px;
 }
-.one h1 {
-    writing-mode: vertical-rl;
+.two {
+    background-image: url(../images/sw-che-uso.png);
+}
+.three {
+    background-image: url(../images/linguaggi-che-uso.jpg);
+}
+.four {
+    background-image: url(../images/portfolio-sfondo.png);
+    background-position: -85px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .testo-one {
     padding: 2%;
+    flex-basis: 75%;
 }
 .titoletti {
     padding: 20px 0 1px 0;
@@ -131,47 +141,50 @@ aside {
     color: lightblue;
     padding: 1px;
 }
-.two {
-    background-image: url(../images/sw-che-uso.png);
-}
-.three {
-    background-image: url(../images/linguaggi-che-uso.jpg);
-}
-.four {
-    background-image: url(../images/portfolio-sfondo.png);
-    background-position: -85px;
+/* item four */
+.four div {
     display: flex;
     flex-wrap: wrap;
 }
 .four h1 {
-    height: 50px;
+    height: 40px;
+    flex-basis: 100%;
 }
 .four h3 {
-    height: 30px;
     justify-content: center;
-    margin: 10px auto;
+    margin: 0px auto;
     flex-basis: 100%;
     text-align: center;
 }
-.four div {
-    background-color: lightgrey;
-    border-radius: 10%;
-    margin: 10px auto;
+.lavoro-text {
+    height: 80px;
+    flex-basis: 100%;
 }
-.lavoro-1 {
+.lavoro {
+    width: 130px;
+    height: 100px;
+    flex-basis: 30%;
+    margin: 0px 5px;
+}
+.lavoro:hover {
+    width: 150px;
+    height: 120px;
+    flex-basis: 33%;
+}
+.l1 {
     border: 5px solid red;
-    width: 130px;
-    height: 100px;
+    background-image: url(../images/lav1.png);
+    background-position: -1px;
 }
-.lavoro-2 {
+.l2 {
     border: 5px solid rgb(4, 0, 255);
-    width: 130px;
-    height: 100px;
+    background-image: url(../images/lav2.png);
+    background-position: -1px;
 }
-.lavoro-3 {
+.l3 {
     border: 5px solid rgb(229, 255, 0);
-    width: 130px;
-    height: 100px;
+    background-image: url(../images/lav3.png);
+    background-position: -1px;
 }
 /* socials */
 .socials {
