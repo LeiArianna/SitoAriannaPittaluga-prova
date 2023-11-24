@@ -15,7 +15,7 @@
                 <a href="#social"><li>SOCIAL</li></a>
             </ul>
         </div>
-        <div class="sfondo-menu"></div>
+        <!--<div class="sfondo-menu"></div>-->
     </aside>
 
     <div class="container">
@@ -109,6 +109,40 @@
             <div>
                 <h1>Social</h1>
             </div>
+            <form action="" method="get">
+                <div>
+                    <h3>Contattami</h3>
+                </div>
+                <div class="form-nome">
+                    <label for="name">Nome</label>
+                    <input type="text" 
+                            id="name"
+                            name="name" 
+                            required minlength="4" 
+                            maxlength="24" 
+                            size="25" 
+                            placeholder="Nome"/>
+                </div>
+                <div class="form-mail">
+                    <label for="mail">E-mail</label>
+                    <input type="text" 
+                            id="mail" 
+                            name="mail" 
+                            required minlength="4" 
+                            maxlength="30" 
+                            size="31" 
+                            placeholder="esempio@esempio.es"/>
+                </div>
+                <div class="form-request">
+                    <label for="request">Testo</label>
+                    <textarea class="textarea" 
+                            id="request" 
+                            name="request"></textarea>
+                </div>
+                <div>
+                    <button>Invio</button>
+                </div>
+            </form>
         </section>
 
          <footer class="footer">

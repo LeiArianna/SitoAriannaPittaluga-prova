@@ -5,13 +5,14 @@
 }
 body {
     background-color: black;
+    color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 /* aside div menu laterale fixed */
 aside {
     position: fixed;
     /*background-color: rgba(247, 185, 195, 0.7); */
-    
+    background-image: linear-gradient(to bottom right, rgba(56, 26, 30, 0.8), rgba(75, 69, 100, 0.8));
     top: 40%;
     right: 0px;
     padding: 5px 5px 5px 30px;
@@ -60,6 +61,7 @@ aside {
     background-color: blueviolet;
     padding: 10px 10px;
     display: flex;
+    color: black;
 }
 .mia-foto img {
     width: 100px;
@@ -82,7 +84,6 @@ aside {
     background-color: #B679FE;
     height: 400px;
     flex-basis: 50%;
-    color: white;
     padding: 10px;    
 }
 .one {
@@ -188,20 +189,75 @@ aside {
 }
 /* socials */
 .socials {
-    background-color: rgb(255, 123, 0);
+    background-color: rgb(37, 37, 37);
     padding: 10px;
-    height: 200px;
+    height: auto;
 }
 .social div {
     padding: 10px;
+}
+/* socials form */
+input {
+    padding: 4px 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #9e002f;
+    font-size: 20px;
+}
+input::placeholder {
+    color: rgb(41, 41, 41);
+}
+form {
+    background-color: rgba(255, 0, 75, 0.2);
+    border: 5px solid #FF004B;
+    border-radius: 15px;
+    margin: 20px 100px;
+    padding: 30px 100px;
+}
+.form-nome {
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+.form-mail {
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+.form-request {
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+.form-request textarea {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #9e002f;
+    height: 200px;
+    width: 90%;
+    font-size: 20px;
+    resize: none;
+}
+label {
+    padding-right: 100px;
+}
+button {
+    background-color: rgba(255, 0, 75, 0.2);
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    padding: 10px 50px;
+    margin: 10px 100px;
+}
+button:hover {
+    background-color: #F04;
 }
 /* footer */
 .footer {
     background-color: purple;
     height: 200px;
+    color: black;
 }
 .footer-header {
-    background-color: wheat;
+    background-color: rgb(255, 216, 137);
     bottom: -10px;
     position: relative;
     text-align: center;
