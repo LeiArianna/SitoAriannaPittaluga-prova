@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: black;
+    background-image: url(../images/texture-repeat-flowers-dark.png);
     color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -15,7 +15,7 @@ aside {
     background-image: linear-gradient(to bottom right, rgba(56, 26, 30, 0.8), rgba(75, 69, 100, 0.8));
     top: 40%;
     right: 0px;
-    padding: 5px 5px 5px 30px;
+    padding: 10px 20px 10px 40px;
     border-radius: 20px;
 }
 .menu li {
@@ -29,8 +29,8 @@ aside {
 }
 .menu a:hover {
     background-color: rgb(247, 185, 195);
-    border: 1px solid #F04;
-    color:#F04;
+    color:rgb(255, 230, 236);
+    text-shadow: green 1px 0 15px;
 }
 .menu a:link {
     color:#D04;
@@ -52,16 +52,16 @@ aside {
 }
 /* div container header, section item-container and footer  */
 .container {
-    background-color: rgb(160, 155, 155);
+    background-color: transparent;
     width: 900px;
     margin: 0 auto;
 }
 /* header */
 .container-header {
-    background-color: blueviolet;
+    background-color: rgba(132, 0, 255, 0.5);
     padding: 10px 10px;
     display: flex;
-    color: black;
+    color: rgba(253, 0, 75, 0.6);
 }
 .mia-foto img {
     width: 100px;
@@ -86,6 +86,15 @@ aside {
     flex-basis: 50%;
     padding: 10px;    
 }
+.item h1 {
+    color: white;
+    font-size: 30px;
+    text-shadow: rgb(255, 0, 75) 2px 2px;
+    padding: 10px 0px;
+}
+.item h3 {
+    text-shadow: rgb(102, 0, 31) 2px 2px;
+}
 .one {
     background-image: url(../images/front-back-end-sfondo.png);
     background-position: -40px;
@@ -108,11 +117,13 @@ aside {
 }
 .titoletti {
     padding: 20px 0 1px 0;
+    text-shadow: rgb(0, 0, 0) 2px 2px;
     display: flex;
 }
 .titoletti div {
     flex-basis: 50%;
-    text-align: center;
+    text-align: left;
+    padding-left: 20px;
 }
 .testini {
     display: flex;
@@ -120,7 +131,7 @@ aside {
 .testini div {
     padding: 5px 18px 1px 18px;
     flex-basis: 50%;
-    text-align: center;
+    text-align: left;
     min-width: 100px;
 }
 .codici {
@@ -148,7 +159,7 @@ aside {
     flex-wrap: wrap;
 }
 .four h1 {
-    height: 40px;
+    height: 60px;
     flex-basis: 100%;
 }
 .four h3 {
@@ -166,6 +177,7 @@ aside {
     height: 100px;
     flex-basis: 30%;
     margin: 0px 5px;
+    border: yellow solid 4px;
 }
 .lavoro:hover {
     width: 150px;
@@ -173,23 +185,23 @@ aside {
     flex-basis: 33%;
 }
 .l1 {
-    border: 5px solid red;
-    background-image: url(../images/lav1.png);
-    background-position: -1px;
+    /*border: 5px solid red; */
+    background-color: gray;
+    /*background-position: -1px; */
 }
 .l2 {
-    border: 5px solid rgb(4, 0, 255);
-    background-image: url(../images/lav2.png);
-    background-position: -1px;
+    /*border: 5px solid rgb(4, 0, 255); */
+    background-color: gray;
+    /*background-position: -1px; */
 }
 .l3 {
-    border: 5px solid rgb(229, 255, 0);
-    background-image: url(../images/lav3.png);
-    background-position: -1px;
+    /*border: 5px solid rgb(229, 255, 0); */
+    background-color: gray;
+    /*background-position: -1px; */
 }
 /* socials */
 .socials {
-    background-color: rgb(37, 37, 37);
+    background-color: transparent;
     padding: 10px;
     height: auto;
 }
@@ -252,7 +264,7 @@ button:hover {
 }
 /* footer */
 .footer {
-    background-color: purple;
+    background-color: rgba(132, 0, 255, 0.5);
     height: 200px;
     color: black;
 }
