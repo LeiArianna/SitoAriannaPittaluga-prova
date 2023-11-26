@@ -29,8 +29,8 @@ aside {
 }
 .menu a:hover {
     background-color: rgb(247, 185, 195);
-    color:rgb(255, 230, 236);
-    text-shadow: green 1px 0 15px;
+    color:white;
+    text-shadow: #f04 1px 0 15px;
 }
 .menu a:link {
     color:#D04;
@@ -58,7 +58,7 @@ aside {
 }
 /* header */
 .container-header {
-    background-color: rgba(132, 0, 255, 0.5);
+    background-color: rgba(110, 29, 187, 0.5);
     padding: 10px 10px;
     display: flex;
     color: rgba(253, 0, 75, 0.6);
@@ -87,9 +87,9 @@ aside {
     padding: 10px;    
 }
 .item h1 {
-    color: white;
+    color: #ff004B;
     font-size: 30px;
-    text-shadow: rgb(255, 0, 75) 2px 2px;
+    text-shadow: rgb(255, 255, 255) 1px 1px;
     padding: 10px 0px;
 }
 .item h3 {
@@ -107,22 +107,26 @@ aside {
 }
 .four {
     background-image: url(../images/portfolio-sfondo.png);
-    background-position: -85px;
+    background-position: -85px 80px;
     display: flex;
     flex-wrap: wrap;
 }
 .testo-one {
-    padding: 2%;
+    padding: 5px 10px 5px 10px;
     flex-basis: 75%;
 }
+.testo-one h3 {
+    padding: 0px 0px 10px 0px;
+}
 .titoletti {
-    padding: 20px 0 1px 0;
-    text-shadow: rgb(0, 0, 0) 2px 2px;
+    padding: 5px 0 1px 0;
+    text-shadow: rgb(255, 0, 72) 1px 1px;
     display: flex;
+    border: red solid 5px;
 }
 .titoletti div {
     flex-basis: 50%;
-    text-align: left;
+    text-align: center;
     padding-left: 20px;
 }
 .testini {
@@ -142,15 +146,15 @@ aside {
     text-align: center;
 }
 .one-chiave {
-    color:lightcoral;
+    color:#ffffff;
     padding: 1px;
 }
 .sotto-titolo {
-    color: lightgreen;
+    color:#ffbacf;
     padding: 1px;
 }
 .sotto-sotto-titolo {
-    color: lightblue;
+    color:rgb(255, 255, 255);
     padding: 1px;
 }
 /* item four */
@@ -264,7 +268,7 @@ button:hover {
 }
 /* footer */
 .footer {
-    background-color: rgba(132, 0, 255, 0.5);
+    background-color: rgba(110, 29, 187, 0.5);
     height: 200px;
     color: black;
 }
