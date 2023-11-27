@@ -11,8 +11,8 @@ body {
 /* aside div menu laterale fixed */
 aside {
     position: fixed;
-    /*background-color: rgba(247, 185, 195, 0.7); */
-    background-image: linear-gradient(to bottom right, rgba(56, 26, 30, 0.8), rgba(75, 69, 100, 0.8));
+    background-color: rgba(110, 29, 187, 0.5);
+    /*background-image: linear-gradient(to bottom right, rgba(56, 26, 30, 0.8), rgba(75, 69, 100, 0.8));*/
     top: 40%;
     right: 0px;
     padding: 10px 20px 10px 40px;
@@ -38,6 +38,7 @@ aside {
 .menu a:visited {
     color:#D04;
 }
+/* classe per trasparenza sfondo radiale inutilizzata
 .sfondo-menu {
     background-image: linear-gradient(to bottom right, rgb(88, 41, 47), rgb(191, 177, 255));
     opacity: 0.2;
@@ -48,8 +49,7 @@ aside {
     border-radius: 20px;
     height: 150px;
     width: 195px;
-    
-}
+} */
 /* div container header, section item-container and footer  */
 .container {
     background-color: transparent;
