@@ -77,7 +77,6 @@ aside {
     flex-wrap: wrap;
 }
 .item {
-    background-color: #B679FE;
     height: 400px;
     flex-basis: 50%;
     padding: 10px;    
@@ -175,13 +174,17 @@ aside {
 .lavoro {
     width: 130px;
     height: 100px;
-    flex-basis: 30%;
+    flex-basis: 28%;
     margin: 0px 5px;
 }
+.lavoro a{
+    width: 130px;
+    height: 110px;
+}
 .lavoro:hover {
-    width: 150px;
-    height: 120px;
-    flex-basis: 33%;
+    width: 140px;
+    height: 110px;
+    flex-basis: 28%;
 }
 .l1 {
     /*border: 5px solid red; */
@@ -265,10 +268,9 @@ button:hover {
 .footer {
     background-color: rgba(110, 29, 187, 0.5);
     height: 200px;
-    color: black;
+    color: white;
 }
 .footer-header {
-    background-color: rgb(255, 216, 137);
     bottom: -10px;
     position: relative;
     text-align: center;
