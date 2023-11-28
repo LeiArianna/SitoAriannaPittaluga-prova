@@ -222,7 +222,7 @@ aside div{
     text-decoration: none;
 }
 .git-descrizione {
-    flex-basis: 70%;
+    flex-basis: 80%;
     padding: 10px;
     color: white;
 }
@@ -238,13 +238,15 @@ aside div{
     font-size: 14px;
 }
 .git-foto {
-    flex-basis: 30%;
+    flex-basis: 20%;
 }
 .git-foto:hover {
     background-color: rgba(128, 128, 128, 0.2);
 }
 .git-foto img {
-    width: 100%;
+    width: 100px;
+    margin-top: 3px;
+    margin-left: 15%;
 }
 /* socials form */
 input {
