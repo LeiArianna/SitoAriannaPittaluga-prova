@@ -337,6 +337,12 @@ button:hover {
 .immagine-sito {
     flex-basis: 30%;
     height: 200px;
+    margin: 0px auto;
+}
+.immagine-sito a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .immagine-sito img {
     height: 200px;
