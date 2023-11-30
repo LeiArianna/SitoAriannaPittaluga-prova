@@ -11,7 +11,7 @@ body {
 /* aside div menu laterale fixed */
 aside div {
     position: fixed;
-    background-color: rgba(110, 29, 187, 0.5);
+    background-color: rgba(43, 11, 73, 0.8);
     /*background-image: linear-gradient(to bottom right, rgba(56, 26, 30, 0.8), rgba(75, 69, 100, 0.8));*/
     top: 40%;
     right: 0px;
@@ -176,6 +176,11 @@ aside div {
     height: 80px;
     flex-basis: 100%;
 }
+.lavoro-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+}
 .lavoro {
     width: 130px;
     height: 100px;
@@ -191,6 +196,7 @@ aside div {
     height: 110px;
     flex-basis: 28%;
 }
+/* immagini di anteprima dei miei lavori */
 .l1 {
     /*border: 5px solid red; */
     background-color: gray;
@@ -241,6 +247,7 @@ aside div {
 .p-git {
     color: gray;
     font-size: 14px;
+    font-family: 'Mona Sans', 'Hubot Sans', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 .git-foto {
     flex-basis: 20%;
@@ -391,6 +398,18 @@ button:hover {
     }
     .testini div {
         margin: 5px 10px 5px 10px;
+    }
+    .lavoro-container div {
+        flex-basis: 25%;
+        margin: 0px 20px 0px 20px;
+    }
+    .lavoro:hover {
+        width: 140px;
+        height: 110px;
+        flex-basis: 26%;
+    }
+    .p-git {
+        font-size: 20px;
     }
 }
 
