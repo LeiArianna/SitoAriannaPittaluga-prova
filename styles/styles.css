@@ -9,7 +9,7 @@ body {
     font-family:Arial, Helvetica, sans-serif;
 }
 /* aside div menu laterale fixed */
-aside div{
+aside div {
     position: fixed;
     background-color: rgba(110, 29, 187, 0.5);
     /*background-image: linear-gradient(to bottom right, rgba(56, 26, 30, 0.8), rgba(75, 69, 100, 0.8));*/
@@ -118,10 +118,14 @@ aside div{
     padding: 5px 0 1px 0;
     text-shadow: rgb(255, 0, 72) 1px 1px;
     display: flex;
+    text-align: center;
+}
+.titoletti-two div {
+    margin: 15px 10px 1px 20px;
+    text-align: left;
 }
 .titoletti div {
     flex-basis: 50%;
-    text-align: center;
     padding-left: 20px;
 }
 .testini {
@@ -130,7 +134,7 @@ aside div{
 .testini div {
     padding: 5px 18px 1px 18px;
     flex-basis: 50%;
-    text-align: left;
+    text-align: j;
     min-width: 100px;
 }
 .codici {
@@ -371,12 +375,22 @@ button:hover {
 
 
 @media only screen and (max-width: 480px) {
+    * {
+        font-size: 30px;
+        line-height: 35px;
+    }
     .item {
     flex-basis: 100%;
     }
+    .item h1 {
+        font-size: 45px;
+        padding-bottom: 20px;
+    }
+    .titoletti-two div {
+        margin: 15px 5% 1px 10%;
+    }
     .testini div {
-        padding-left: 100px;
-        padding-right: 100px;
+        margin: 5px 10px 5px 10px;
     }
 }
 
