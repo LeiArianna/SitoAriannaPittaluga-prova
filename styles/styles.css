@@ -114,6 +114,7 @@ aside div{
     padding: 0px 0px 10px 0px;
 }
 .titoletti {
+    line-height: 20px;
     padding: 5px 0 1px 0;
     text-shadow: rgb(255, 0, 72) 1px 1px;
     display: flex;
@@ -372,6 +373,10 @@ button:hover {
 @media only screen and (max-width: 480px) {
     .item {
     flex-basis: 100%;
+    }
+    .testini div {
+        padding-left: 100px;
+        padding-right: 100px;
     }
 }
 
