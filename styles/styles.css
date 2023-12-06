@@ -303,7 +303,7 @@ form {
 label {
     padding-right: 100px;
 }
-button {
+.button {
     background-color: rgba(255, 0, 75, 0.2);
     border-radius: 10px;
     font-size: 20px;
@@ -311,7 +311,7 @@ button {
     padding: 10px 50px;
     margin: 10px 100px;
 }
-button:hover {
+.button:hover {
     background-color: #F04;
 }
 /* footer */

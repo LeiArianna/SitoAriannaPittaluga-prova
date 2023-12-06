@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arianna Web Designer</title>
     <link rel="stylesheet" href="styles/styles.css" />
-    <!-- OG -->
+<!-- OG -->
     <meta property="og:image" content="images/mia-foto.jpg"
         property="og:image:height" content="300"
         propriety="og:image:width" content="200" />
@@ -14,6 +14,7 @@
         content="Professionista Sviluppatrice Web, dal back end al front end." />
 </head>
 <body>
+<!-- menu laterale destro fixed -->
     <aside>
         <div class="menu">
             <ul>
@@ -25,7 +26,7 @@
         <!-- div per trasparenza sfondo radiale inutilizzato --> 
         <!-- <div class="sfondo-menu"></div> -->
     </aside>
-
+<!-- header pagina -->
     <div class="container">
         <header class="container-header">
             <div class="mia-foto">           
@@ -36,7 +37,7 @@
                 <h2>Sviluppatrice Siti Web</h2>
             </div>
         </header>
-
+<!-- div 4 riquadri -->
         <section>
             <div class="item-container">
                 <div class="item one">
@@ -117,7 +118,7 @@
                 </div>
             </div>
         </section>
-
+<!-- div social -->
         <section id="social" class="item socials">
             <div>
                 <h1>Social</h1>
@@ -137,8 +138,8 @@
                         </div>
                     </a>
                 </div>
-                
-            <form action="" method="get">
+<!-- form contattami -->
+            <form action="mailto:arianna.pittaluga@live.it" method="post" enctype="text/plain">
                 <div>
                     <h3>Contattami</h3>
                 </div>
@@ -158,6 +159,7 @@
                             id="email" 
                             name="email" 
                             size="31" 
+                            autocomplete="on"
                             placeholder="esempio@esempio.es"/>
                 </div>
                 <div class="form-request">
@@ -167,11 +169,11 @@
                             name="request"></textarea>
                 </div>
                 <div>
-                    <button>Invio</button>
+                    <input class="button" type="submit" value="Send">
                 </div>
             </form>
         </section>
-
+<!-- footer -->
          <footer class="footer">
             <div class="footer-header">
                 <p>© Arianna Pittaluga 2023</p>
