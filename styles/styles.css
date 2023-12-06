@@ -16,7 +16,7 @@ aside div {
     top: 40%;
     right: 0px;
     padding: 10px 20px 10px 40px;
-    border-radius: 20px;
+    border-radius: 40px 0px 0px 40px;
 }
 .menu li {
     list-style-type: circle;
@@ -113,6 +113,11 @@ aside div {
 .testo-one h3 {
     padding: 0px 0px 10px 0px;
 }
+.bio {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 25px 15px;
+    padding: 15px;
+}
 .titoletti {
     line-height: 20px;
     padding: 5px 0 1px 0;
@@ -156,20 +161,6 @@ aside div {
 .sotto-sotto-titolo {
     color:rgb(255, 255, 255);
     padding: 1px;
-}
-.bio {
-    background-color: rgba(0, 0, 0, 0.5);
-    margin: 15px;
-    padding: 15px;
-    color: #222;
-}
-.bio:hover {
-    background-image: url(../images/sfondo-bio.png);
-    color:white;
-    position: relative;
-}
-.bio p {
-    padding: 5px 0 5px 0;
 }
 /* item four */
 .four div {
@@ -406,10 +397,19 @@ label {
         top: 0%;
         right: 0%;
         padding: 10px 20px 10px 40px;
-        border-radius: 20px 0px 20px 20px;
+        border-radius: 40px 0px 40px 20px;
     }
     .item {
     flex-basis: 100%;
+    }
+    .one {
+        height: 850px;
+    }
+    .bio h3 {
+        padding: 10px 0 10px 0;
+    }
+    .bio p {
+        padding: 3px 10px 3px 10px;
     }
     .item h1 {
         font-size: 45px;
@@ -420,6 +420,9 @@ label {
     }
     .testini div {
         margin: 5px 10px 5px 10px;
+    }
+    .bio h3 {
+        text-shadow: rgb(255, 0, 75) 2px 2px;
     }
     .lavoro-container div {
         flex-basis: 25%;
@@ -440,5 +443,18 @@ label {
 }
 
 @media only screen and (min-width: 961px) {
-    
+    .bio {
+        color: #222;
+    }
+    .bio:hover {
+        background-image: url(../images/sfondo-bio.png);
+        color:white;
+        position: relative;
+    }
+    .bio h3 {
+        padding: 10px 0 10px 0;
+    }
+    .bio p {
+        padding: 3px 10px 3px 10px;
+    }
 }
