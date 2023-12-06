@@ -157,6 +157,20 @@ aside div {
     color:rgb(255, 255, 255);
     padding: 1px;
 }
+.bio {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 15px;
+    padding: 15px;
+    color: #222;
+}
+.bio:hover {
+    background-image: url(../images/sfondo-bio.png);
+    color:white;
+    position: relative;
+}
+.bio p {
+    padding: 5px 0 5px 0;
+}
 /* item four */
 .four div {
     display: flex;
