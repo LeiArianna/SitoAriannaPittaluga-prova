@@ -447,7 +447,9 @@ label {
         color: #222;
     }
     .bio:hover {
-        background-image: url(../images/sfondo-bio.png);
+        background-image: url(../images/sfondo-bio2.jpg);
+        background-position: -70px 40px;
+        backface-visibility: 0.5;
         color:white;
         position: relative;
     }
