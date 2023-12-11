@@ -197,9 +197,9 @@ aside div {
     height: 110px;
 }
 .lavoro:hover {
-    width: 140px;
-    height: 110px;
     flex-basis: 28%;
+    height: 60%;
+    width: 200px;
 }
 /* immagini di anteprima dei miei lavori */
 .l1 {
