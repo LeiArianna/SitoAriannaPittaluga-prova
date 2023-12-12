@@ -404,6 +404,19 @@ label {
     }
     .one {
         height: 850px;
+        background-size: 1000px;
+        background-repeat: no-repeat;
+        background-color: black;
+        background-position: top;
+    }
+    .two {
+        background-size: 950px;
+    }
+    .three {
+        background-size: 950px;
+    }
+    .four {
+        background-size: 1050px;
     }
     .bio h3 {
         padding: 10px 0 10px 0;
